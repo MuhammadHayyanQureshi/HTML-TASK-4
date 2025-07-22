@@ -1,0 +1,286 @@
+
+@media (max-width: 95rem) {
+
+    .about-cont{
+        width: 40px;
+        height: 20px;
+        justify-content: left;
+        margin: 0px;
+    }
+
+    .form-input{
+    width: 76vh;
+    height: 10vh;
+}
+
+.prac-areas{
+    font-size: small;
+    height: 14vh;
+}
+.grad-vec-area{
+    margin: auto;
+    height: 5.2rem;
+}
+
+.img-cont{
+    float: none;
+    margin-top: 0px;
+    margin-right: 19.8vh;
+}
+
+.ask-btn{
+    padding: 11px;
+    font-size: 0.9rem;
+    width: 12rem;
+}
+.about-footer-box{
+    padding-top: 9px;
+}
+
+    .gurantee-png{
+        width: 600px;
+        height: 370px;
+    }
+
+    .input-container{
+        margin: 0px;
+    }
+    .input-box-quest-cont{
+        padding: 0px;
+    }
+
+    .form-png{
+        width: 600px;
+        height: 370px;
+    }
+
+        .Question-box{
+        width: 600px;
+        height: 370px;
+    }
+
+    .quest-txt-1, .Question-text{
+        font-size: 1.6rem;
+    }
+    .into-text{
+        font-size: 1.1rem;
+    }
+    
+    body{
+        padding: 0px;
+    }
+
+.grid-law-cont{
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 1fr 1fr 0.6fr;
+    grid-template-rows: 1.9fr 2fr;
+    grid-auto-rows: minmax(250px, auto);
+}
+
+#law-cont-blog-col3{
+    height: 550px;
+}
+
+.grid-law-cont{
+    margin: auto;
+    display: grid;
+grid-template-columns: 0.8fr 0.1fr;
+    grid-template-rows: 1.4fr 2fr;
+    grid-auto-rows: minmax(250px, auto);
+    grid-template-areas: "left-item mid" "left-item right" "right mid-bottom";
+}
+
+.click-btn{
+    margin: 0px;
+}
+.sec-line-vector{
+    margin: 0px;
+}
+.dui-cont > .full-text{
+    font-size: 1rem;
+    text-align: center;
+}
+    
+}
+
+@media (max-width: 80rem){
+    
+ .gurantee-png{
+        width: 500px;
+        height: 370px;
+    }
+
+    .header-contact{
+        margin-left: 0px;
+    }
+    
+    .input-container{
+        margin: 0px;
+    }
+    .input-box-quest-cont{
+        padding: 0px;
+    }
+
+    #input{
+        margin: 0px;
+    }
+    #input-text{
+        font-size: 0.8rem;
+    }
+
+    .img-conf-cont{
+        margin-top: 20px;
+        padding: 0px;
+    }
+
+    .Question-text{
+        margin-right: 0px;
+    }
+
+  .Question-box{
+        width: 500px;
+        height: 300px;
+    }
+
+    .form-png{
+        width: 500px;
+        height: 370px;
+    }
+
+    .img-conf-cont{
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 64.4rem) {
+       
+  .Question-box{
+        width: 480px;
+        height: 290px;
+    }
+
+    .img-conf{
+        width: 100px;
+    }
+  
+}
+
+@media (max-width: 50rem) {
+    #mid-cont-cot3{
+        height: 170vh;
+    }
+    .header-contact{
+        font-size: small;
+        display: none;
+    }
+    #Header-keefer-cont{
+        display: flex;
+        justify-content: center;
+        height: inherit;
+    }
+    .keefer-logo{
+        width: 120rem;
+    }
+
+    #navbar{
+        position: fixed;
+background: #750b0b;
+background: linear-gradient(0deg, rgb(128, 8, 8) 8%, rgb(106, 1, 1) 95%);        right: -100%;
+        z-index: 10;
+        transition: right 0.5s ease-in-out;
+    }
+
+    #navbar.show{
+        right: 0;
+    }
+
+    #navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #open-sidebar-btn, #close-sidebar-button{
+        display: block;
+    }
+
+    .end-vecto{
+        display: none;
+    }
+
+    
+.grid-law-cont{
+    margin: auto;
+    display: grid;
+grid-template-columns: 0.8fr 2fr;
+    grid-template-rows: 1.9fr;
+}
+
+.about-image{
+    display: none;
+}
+
+.display-header-contact{
+    display: flex;
+}
+.line-vector{
+    width: 97vh;
+}
+
+.contac-txt, .header-phone-txt, .quest-txt{
+    font-size: 50px;
+}
+
+#blog-cont-col{
+    height: 60vh;
+}
+
+.vec-shadow{
+    width: 50%;
+    max-width: 100px;
+}
+
+
+.grid-law-cont{
+    margin-right: 0px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.7fr;
+    grid-template-rows: 0.9fr;
+    grid-auto-rows: minmax(250px, auto);
+    grid-template-areas: "left-item mid mid" "left-item mid-bottom right-item";
+}
+
+.grid-item-left{
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0);
+-webkit-box-shadow: 1px 0px 0px 0px rgb(197, 194, 194);
+-moz-box-shadow: 1px 0px 0px 1px rgb(0, 0, 0);
+    grid-area: left-item;
+}
+.grid-mid{
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0);
+-webkit-box-shadow: 0px 1px 0px 0px rgb(197, 194, 194);
+-moz-box-shadow: 1px 0px 0px 1px rgb(0, 0, 0);
+    grid-area: mid;
+}
+.grid-right{
+    grid-area: right-item;
+}
+.grid-bottom-mid{
+    grid-area: mid-bottom;
+}
+
+.img-cont{
+    margin-right: 30px;
+}
+
+.graphic-btn{
+    padding-top: 5px;
+    justify-content: space-around;
+}
+
+.full-text{
+    padding-left: 0px;
+}
+
+}
