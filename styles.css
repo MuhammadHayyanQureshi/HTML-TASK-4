@@ -57,7 +57,6 @@ a:hover{
     max-width: 100%; 
     height: auto;
     width: 100vh;
-    object-fit: contain;
 }
 
 .line-vector{
@@ -113,8 +112,8 @@ background: linear-gradient(0deg, rgba(110, 5, 5, 1) 51%, rgba(156, 14, 14, 1) 1
 
 
 
-.Question-box{
-    background-image: url(/images/form_bg.jpg);
+#Question-box{
+    background-image: url(images/form_bg.jpg);
     background-size: cover;
         background-repeat: no-repeat;
 }
@@ -158,9 +157,6 @@ background: linear-gradient(0deg, rgba(110, 5, 5, 1) 51%, rgba(156, 14, 14, 1) 1
     margin-right: 50px;
 }
 
-.Info-text-cont{
-    display: flex;
-}
 .into-text{
     display: flex;
     flex-direction: row;
