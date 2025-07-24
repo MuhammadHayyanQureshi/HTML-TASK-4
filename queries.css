@@ -1,5 +1,5 @@
 
-@media (max-width: 95rem) {
+@media (max-width: 94.4rem) {
 
     .form-input{
     width: 76vh;
@@ -17,8 +17,8 @@
 
 .img-cont{
     float: none;
-    margin-top: 0px;
-    margin-right: 19.8vh;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 
@@ -93,8 +93,25 @@ grid-template-columns: 0.8fr 0.1fr;
     .img-block{
         height: auto;
         width: auto;
-        flex-wrap: wrap;
     }
+    .img-conf-cont{
+        padding: 0px;
+    }
+    .graphic-btn{
+        justify-content: space-evenly;
+    }
+    .end-vecto{
+        justify-content: space-evenly;
+    }
+    .grid-law-cont{
+    margin-right: 20px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 0.6fr;
+    grid-template-rows: 1.9fr 2fr;
+    grid-auto-rows: minmax(250px, auto);
+    grid-template-areas: "left-item mid right" "left-item mid-bottom right";
+}
 }
 
 @media (max-width: 50rem) {
@@ -112,7 +129,7 @@ grid-template-columns: 0.8fr 0.1fr;
     #Header-keefer-cont{
         display: flex;
         justify-content: center;
-        height: inherit;
+        height: auto;
     }
     .keefer-logo{
         width: 120rem;
@@ -175,7 +192,7 @@ grid-template-columns: 0.8fr 2fr;
     height: 60vh;
 }
 
-.vec-shadow{
+.vec-shadow, .vec-shadow-bottom{
     margin: auto;
 }
 
@@ -209,10 +226,6 @@ grid-template-columns: 0.8fr 2fr;
     grid-area: mid-bottom;
 }
 
-.img-cont{
-    margin-right: 30px;
-}
-
 .graphic-btn{
     padding-top: 5px;
     justify-content: space-around;
@@ -236,6 +249,10 @@ grid-template-columns: 0.8fr 2fr;
 
 .prac-res-img{
     display: block;
+}
+
+.vec-shadow-bottom{
+    display: none;
 }
 
 }
