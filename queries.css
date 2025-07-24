@@ -1,5 +1,5 @@
 
-@media (max-width: 94.4rem) {
+@media (max-width: 87.5rem) {
 
     .form-input{
     width: 76vh;
@@ -53,14 +53,13 @@
 }
 
 #law-cont-blog-col3{
-    height: 550px;
+    height: 100%;
 }
 
 .grid-law-cont{
     margin: auto;
     display: grid;
-grid-template-columns: 0.8fr 0.1fr;
-    grid-template-rows: 1.4fr 2fr;
+    grid-template-rows: 1.5fr 2fr;
     grid-auto-rows: minmax(250px, auto);
     grid-template-areas: "left-item mid" "left-item right" "right mid-bottom";
 }
@@ -80,7 +79,6 @@ grid-template-columns: 0.8fr 0.1fr;
 
 @media (max-width: 80rem){
     
-
 .grad-vec-area{
     margin: auto;
     height: 5.2rem;
@@ -112,6 +110,13 @@ grid-template-columns: 0.8fr 0.1fr;
     grid-auto-rows: minmax(250px, auto);
     grid-template-areas: "left-item mid right" "left-item mid-bottom right";
 }
+}
+
+@media (max-width: 62.7rem) {
+
+   .Question-text{
+    margin: 0px;
+   }
 }
 
 @media (max-width: 50rem) {
@@ -173,23 +178,20 @@ grid-template-columns: 0.8fr 2fr;
     grid-template-rows: 1.9fr;
 }
 
-.about-image{
-    display: none;
-}
-
 .display-header-contact{
     display: flex;
 }
 .line-vector{
-    width: 97vh;
+    width: 55vw;
 }
 
 .contac-txt, .header-phone-txt, .quest-txt{
-    font-size: 50px;
+    font-size: 2rem;
+    text-align: center;
 }
 
 #blog-cont-col{
-    height: 60vh;
+    height: 140vh;
 }
 
 .vec-shadow, .vec-shadow-bottom{
@@ -201,10 +203,9 @@ grid-template-columns: 0.8fr 2fr;
     margin-right: 0px;
     margin-left: 0px;
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.7fr;
-    grid-template-rows: 0.9fr;
+    grid-template-columns: 1fr;
     grid-auto-rows: minmax(250px, auto);
-    grid-template-areas: "left-item mid mid" "left-item mid-bottom right-item";
+    grid-template-areas: "left-item mid" "left-item mid-bottom" "right-item right-item";
 }
 
 .grid-item-left{
@@ -232,27 +233,48 @@ grid-template-columns: 0.8fr 2fr;
 }
 
 .full-text{
-    padding-left: 0px;
+    justify-content: center;
 }
 
 .grad-vec-area{
     margin: auto;
     height: 5.2rem;
 }
-.img-parent-cont{
-    display: none;
+.img-block{
+    flex-direction: column;
+    align-items: center;
 }
 
 .prac-cont h4{
     padding: 0px;
 }
 
-.prac-res-img{
-    display: block;
+.prac-cont{
+    padding: 0px;
 }
 
-.vec-shadow-bottom{
-    display: none;
+.dui-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.for-respons-cent-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid-mid-law-cont{
+    margin-left: 20px;
+}
+
+.gurrantee-png{
+    padding-bottom: 1.5rem;
+    width: 75%;
+}
+
+.confidential{
+    width: 30vw;
 }
 
 }

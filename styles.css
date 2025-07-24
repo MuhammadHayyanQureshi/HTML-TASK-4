@@ -195,17 +195,17 @@ background: linear-gradient(0deg, rgba(110, 5, 5, 1) 51%, rgba(156, 14, 14, 1) 1
 }
 
 .img-conf-cont{
-    margin-right: 90px;
+    margin: 2rem 0.5rem;
+    padding: 0 0.5rem;
+    max-width: 100%;
+    height: auto;
     transform: rotate(10deg);
-    margin-top: 15px;
-    padding: 10px;
     display: inline-flex;
     float: right;
 }
 
-.img-conf img{
-    max-width: 1000px;
-    width: 150%;
+.confidential{
+    width: 15vw;
 }
 
 .form-input{
@@ -363,7 +363,6 @@ background: linear-gradient(0deg, rgba(117, 11, 11, 1) 8%, rgba(201, 30, 30, 1) 
 }
 #mid-cont-cot3{
     padding-top: 15px;
-    height: 150vh;
     background-color: white;
 }
 
