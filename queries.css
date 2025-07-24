@@ -61,7 +61,7 @@
     display: grid;
     grid-template-rows: 1.5fr 2fr;
     grid-auto-rows: minmax(250px, auto);
-    grid-template-areas: "left-item mid" "left-item right" "right mid-bottom";
+    grid-template-areas: "left-item mid" "left-item right-item" "right-item mid-bottom";
 }
 
 .click-btn{
@@ -108,7 +108,7 @@
     grid-template-columns: 0.8fr 1fr 0.6fr;
     grid-template-rows: 1.9fr 2fr;
     grid-auto-rows: minmax(250px, auto);
-    grid-template-areas: "left-item mid right" "left-item mid-bottom right";
+    grid-template-areas: "left-item mid right-item" "left-item mid-bottom right-item";
 }
 }
 
@@ -149,7 +149,8 @@
     #navbar{
         position: fixed;
 background: #750b0b;
-background: linear-gradient(0deg, rgb(128, 8, 8) 8%, rgb(106, 1, 1) 95%);        right: -100%;
+background: linear-gradient(0deg, rgb(128, 8, 8) 8%, rgb(106, 1, 1) 95%);        
+right: -100%;
         z-index: 10;
         transition: right 0.5s ease-in-out;
     }
