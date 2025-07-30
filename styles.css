@@ -261,32 +261,60 @@ background: linear-gradient(0deg, rgba(117, 11, 11, 1) 8%, rgba(201, 30, 30, 1) 
 
 #law-cont-blog-col3{
     background-color: white;
-    height: 330px;
+}
+
+.text-container{
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1rem;
+}
+
+.text-container-2{
+    width: 100%;
+    height: 50%;
+}
+
+.text-container-3{
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1rem;
 }
 
 .grid-law-cont{
-    margin-right: 40px;
-    margin-left: 70px;
+    padding-top: 1rem;
+    margin: 0rem 2rem;
+    padding-bottom: 1rem;
     display: grid;
-    grid-template-columns: 0.8fr 1fr 0.6fr;
-    grid-template-rows: 1.9fr 2fr;
-    grid-auto-rows: minmax(250px, auto);
+    grid-template-columns: 0.8fr 1fr 0.8fr;
+    grid-template-rows: 0.9fr 0.5fr 0fr;
     grid-template-areas: "left-item mid right-item" "left-item mid-bottom right-item";
 }
-
-.img-cont{
-    display: flex;
+.img-cont-box{
     float: right;
-    justify-content: flex-end;
-    margin-right: 80px;
-    margin-top: 60px;
+    display: flex;
+    padding: 4rem 0rem;
 }
 
-.full-text{
+.case-cont{
+    margin-bottom: 2rem;
+}
+.cert-cont{
+    padding-top: 2rem;
+}
+.text-box{
+    font-size: 1.2rem;
     font-weight: 600;
         font-family: "Roboto", sans-serif;
-    padding-left: 20px;
-    color: rgb(96, 96, 96);
+        padding-left: 1rem;
+        color: rgb(96, 96, 96);
+    display: inline-flex;
+    flex-direction: column;
+}
+.text-box-left{
+    font-size: 1.2rem;
+    font-weight: 600;
+        font-family: "Roboto", sans-serif;
+        color: rgb(96, 96, 96);
     display: inline-flex;
     flex-direction: column;
 }
@@ -304,28 +332,37 @@ background: linear-gradient(0deg, rgba(117, 11, 11, 1) 8%, rgba(201, 30, 30, 1) 
     grid-area: mid;
 }
 .grid-right{
+    box-shadow: -12px 0px 0px -11px rgba(0,0,0,1);
+-webkit-box-shadow: -12px 0px 0px -11px  rgb(197, 194, 194);;
+-moz-box-shadow: -12px 0px 0px -11px rgba(0,0,0,1);
     grid-area: right-item;
 }
 .grid-bottom-mid{
     grid-area: mid-bottom;
 }
 .graphic-btn{
-    display: flex;
-    justify-content: flex-end;
+    float: right;
 }
 
-.end-vecto{
-    display: flex;
-    justify-content: flex-end;
+.end-vecto-left{
+    margin-left: 3rem;
 }
+
 .sec-line-vector{
     height: 0.8px;
-    width: 28vh;
-    margin-right: 60px;
+    width: 25vh;
     background-color: rgb(77, 75, 75);
 }
+
+.graphic-btn-left{
+    margin-left: 5rem;
+}
+.graphic-btn-right{
+    float: right;
+    margin-right: 5rem;
+}
+
 .click-btn{
-    margin-right: 80px;
     display: flex;
     justify-content: flex-end;
     font-family: "Roboto", sans-serif;
@@ -343,11 +380,8 @@ background: linear-gradient(0deg, rgba(117, 11, 11, 1) 8%, rgba(201, 30, 30, 1) 
 }
 
 .img-cont-2, .img-cont-3{
-    display: flex;
+    padding: 0.5rem 0.5rem;
     float: right;
-    justify-content: flex-end;
-    margin-right: 50px;
-    margin-top: 10px;
 }
 .img-cont-4{
     padding-bottom: 20px;
@@ -372,7 +406,7 @@ background: linear-gradient(0deg, rgba(117, 11, 11, 1) 8%, rgba(201, 30, 30, 1) 
     display: grid;
     grid-template-columns: 1fr 2.6fr 0.8fr;
     grid-auto-rows: minmax(250px, auto);
-    grid-template-areas: "left-prac mid-tit right-test"
+    grid-template-areas: "left-prac mid-tit right-test";
 }
 
 .prac-cont{
@@ -395,11 +429,11 @@ background: linear-gradient(0deg, rgba(117, 11, 11, 1) 8%, rgba(201, 30, 30, 1) 
     }
 
 
-.grad-vec-area{
+.prac-areas > .grad-vec-area{
     background: #000000;
 background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(140, 0, 0, 1) 100%);
-    height: 76px;
-    width: 15px;
+    height: 100%;
+    width: 5%;
     float: left;
 }
 
@@ -408,6 +442,8 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(140, 0, 0, 1) 100%);
     margin-bottom: 18px;
     background-color: grey;
 }
+
+
 .crimes-tile{
         font-family: "Roboto", sans-serif;
 }
