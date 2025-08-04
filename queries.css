@@ -34,7 +34,7 @@
     }
 
     .text-box-left{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
     .graphic-btn-left{
@@ -50,17 +50,12 @@
 
     .text-box{
         padding: 0px;
-        font-size: 1.1rem;
-    }
-    
-    body{
-        padding: 0px;
+        font-size: 0.9rem;
     }
 
 
 .grid-law-cont{
     display: grid;
-    margin: 0px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
         grid-template-rows: 1.5fr 2fr;
@@ -81,27 +76,33 @@
 
     .Question-text{
         font-size: 1.2rem;
+        margin: auto 1rem;
     }
     
-    .text-box{
-        font-size: 0.9rem;
-    }
-
     .text-container{
-        padding: 1rem 2rem;
+        padding: 0.5rem 0.5rem;
     }
-      
+    .paste-board-cont{
+        width: 5rem;
+    }
+    .text-container-3{
+        padding: 0.5rem 0.5rem;
+    }
+          
     .grid-law-cont{
     padding-top: 1rem;
-    justify-items: center;
-    margin: 0;
+    margin: 0 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 0fr;
-    grid-template-rows: 0.7fr 0fr 0fr;
-        grid-template-areas: "left-item left-item" "mid mid-bottom" "right-item right-item";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+        grid-template-areas: "left-item mid mid-bottom" "right-item right-item right-item" ;
 }
 
-.text-box-left{
+.img-cont-2, .img-cont-3{
+    padding: 0.5rem 0.5rem;
+}
+
+.text-box-left, .text-box{
     font-size: 0.9rem;
 }
 
@@ -126,6 +127,11 @@
     .vec-shadow{
         display: none;
     }
+
+    .crimes-tile{
+        font-size: 0.8em;
+    }
+
 }
 
 /* 992px */
@@ -138,6 +144,10 @@
 
     .gurrantee-png{
         margin-bottom: 1.5rem;
+    }
+
+    .paste-board-cont{
+        width: 8rem;
     }
     
 
@@ -219,6 +229,11 @@ right: -100%;
 
 /* 922px */
 @media (max-width: 57rem) {
+
+    #law-cont-blog-col3{
+        padding: 5rem;
+    }
+
     .Question-box{
         height: auto;
         width: auto;
@@ -301,8 +316,9 @@ grid-template-columns: 0.8fr 2fr;
 }
 
     .grid-law-cont{
+        margin-right: 5%;
+        margin-left: 5%;
     padding-top: 1rem;
-    margin: 0;
     display: grid;
     grid-template-columns: 4fr 2fr 4fr;
     grid-template-rows: 0.7fr 0fr 0fr;
@@ -322,8 +338,7 @@ grid-template-columns: 0.8fr 2fr;
 }
 
 .grad-vec-area{
-    margin: auto;
-    height: 5.2rem;
+    margin-right: 1rem;
 }
 .img-block{
     flex-direction: column;
@@ -363,7 +378,7 @@ grid-template-columns: 0.8fr 2fr;
 }
 
 .grid-mid-law-cont{
-    margin: 2rem 5rem;
+    margin: 2rem 2rem;
     display: grid;
     grid-template-columns: 1fr 2.6fr 0.8fr;
     grid-auto-rows: minmax(250px, auto);
@@ -375,6 +390,7 @@ grid-template-columns: 0.8fr 2fr;
 }
 
 .prac-cont1{
+    margin: 5% 0;
         padding-left: 4vh;
         padding-right: 4vh;
 
