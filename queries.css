@@ -1,6 +1,6 @@
 @media (width >= 1400px){
     .quest-txt-1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .quest-cont{
         margin-bottom: 2rem;
@@ -10,9 +10,10 @@
 
 @media (max-width: 1200px){
 
-    .quest-txt-1{
-        font-size: 1.5em;
+     .quest-txt-1{
+        font-size: 1.4rem;
     }
+    
     .quest-cont{
         margin-bottom: 2rem;
     }
@@ -86,6 +87,11 @@
 
 
 @media (max-width: 992px){
+
+    .quest-txt-1{
+        font-size: 1.4rem;
+    }
+
     .Question-text{
         margin: 0;
     }
