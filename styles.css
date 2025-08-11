@@ -78,12 +78,14 @@ a:hover{
     flex-direction: column;
 }
 .contac-txt{
+    margin: auto auto;
     font-family: "Roboto", sans-serif;
     font-size: 2em;
     color: #9e2828;
     padding-bottom: 2px;
 }
 .header-phone-txt{
+    margin: auto auto;
     letter-spacing: 6px;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
@@ -117,7 +119,7 @@ background: linear-gradient(0deg, rgba(110, 5, 5, 1) 51%, rgba(156, 14, 14, 1) 1
 }
 
 .quest-cont{
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     color: white;
     font-size: 20px;
 }
@@ -170,13 +172,15 @@ background: linear-gradient(0deg, rgba(110, 5, 5, 1) 51%, rgba(156, 14, 14, 1) 1
 }
 
 .input-box{
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
         display: inline-flex;
 }
 
 .input-container{
-    margin-left: 30px;
-    padding: 5px;
+    margin-left: 1rem;
+    padding: 2px;
 }
 #input-text{
     font-weight: 500;
@@ -189,24 +193,21 @@ background: linear-gradient(0deg, rgba(110, 5, 5, 1) 51%, rgba(156, 14, 14, 1) 1
 }
 
 #input{
-    width: 220px;
+    width: 12rem;
     height: 30px;
     margin-left: 10px;
 }
 
 .img-conf-cont{
-    margin: 2rem 0.5rem;
-    padding: 0 0.5rem;
-    max-width: 100%;
-    height: auto;
-    transform: rotate(10deg);
-    display: inline-flex;
+    margin:  1rem 2rem;
     float: right;
 }
-
-.confidential{
-    width: 12rem;
+.img-conf-cont > .confidential{
+    max-width: 1000px;
+    width: 15vw;
+    transform: rotate(10deg);
 }
+
 
 .prac-items,.prac-items-2, .prac-items-3{
     display: flex;
@@ -220,7 +221,6 @@ background: linear-gradient(0deg, rgba(110, 5, 5, 1) 51%, rgba(156, 14, 14, 1) 1
 }
 
 .form-case{
-    display: flex;
     margin-left: 30px;
     margin-top: 6px;
 }
